@@ -1,4 +1,4 @@
-
+![](https://i.imgur.com/itcZGAp.png)
 
 # easy-keygen
 Generate RSA ,DSA, key pairs for auth (with user defined bit size ) and also in OPENSSH format.
