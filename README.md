@@ -1,3 +1,5 @@
++-+-+-+-+-+-+-+-+--+ |E|a|s|y|-|K|e|y|g|e|n| +-+-+-+-+-+-+-+-+-+-+-+
+
 # easy-keygen
 Generate RSA ,DSA, key pairs for auth (with user defined bit size ) and also in OPENSSH format.
 
