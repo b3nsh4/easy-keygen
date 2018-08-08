@@ -8,6 +8,23 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives.asymmetric import dsa
 from cryptography.hazmat.backends import default_backend as easy_backend
 
+GNU nano 2.9.8                                                                                         banner.py
+
+#somecolors
+lightgreen='\033[92m'
+clear ='\033[0m'
+print(lightgreen+"""
+
+                             | |
+   ___  __ _ ___ _   _ ______| | _____ _   _  __ _  ___ _ __
+  / _ \/ _` / __| | | |______| |/ / _ \ | | |/ _` |/ _ \ '_ \
+ |  __/ (_| \__ \ |_| |      |   <  __/ |_| | (_| |  __/ | | |
+  \___|\__,_|___/\__, |      |_|\_\___|\__, |\__, |\___|_| |_|
+                  __/ |                 __/ | __/ |
+                 |___/                 |___/ |___/
+                                                     by-bensh4
+""")
+
 rsa_key=rsa.generate_private_key(
     backend=easy_backend(), #its default_backend itself!
     public_exponent=65537,  #default and suggested exponent
