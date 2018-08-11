@@ -8,7 +8,6 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives.asymmetric import dsa
 from cryptography.hazmat.backends import default_backend as easy_backend
 
-GNU nano 2.9.8                                                                                         banner.py
 
 #somecolors
 lightgreen='\033[92m'
